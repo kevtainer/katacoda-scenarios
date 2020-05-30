@@ -1,4 +1,4 @@
-In order to expose the Dashboard to the world, we must configure a IngressRoute, which is a custom resource definition provider installed by Traefik.
+In order to expose the Dashboard to the world, we will configure a IngressRoute, which is a custom resource definition provider installed by Traefik.
 
 Copy the following yaml into the `dashboard.yaml`{{open}} file:
 
@@ -11,7 +11,7 @@ spec:
   entryPoints:
     - websecure
   routes:
-    - match: "Host(`[[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com`) && ((PathPrefix(`/dashboard`) || PathPrefix(`/api`))"
+    - match: "Host(`[[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com`) && (PathPrefix(`/dashboard`) || PathPrefix(`/api`))"
       kind: Rule
       services:
         - name: api@internal

@@ -9,24 +9,29 @@
         "host01": [
           { "file": "check-endpoint.sh", "target": "/home/traefik", "chmod": "+x" },
           { "file": "wait.sh", "target": "/usr/local/bin", "chmod": "+x"},
+          { "file": "clear.sh", "target": "/usr/local/bin", "chmod": "+x"},
           { "file": "basicauth.yaml", "target": "/home/traefik" }
         ]
       },
       "steps": [{
         "title": "Install Helm",
-        "text": "step1.md"
+        "text": "step1.md",
+        "code": "clear.sh"
       },
       {
         "title": "Deploy Traefik",
-        "text": "step2.md"
+        "text": "step2.md",
+        "code": "clear.sh"
       },
       {
         "title": "Configuring and accessing the Traefik Dashboard",
-        "text": "step3.md"
+        "text": "step3.md",
+        "code": "clear.sh"
       },
       {
         "title": "Securing the Traefik Dashboard",
-        "text": "step4.md"
+        "text": "step4.md",
+        "code": "clear.sh"
       }],
       "intro": {
         "text": "intro.md",

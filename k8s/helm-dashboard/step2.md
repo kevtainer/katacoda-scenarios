@@ -1,6 +1,6 @@
 In this lesson, we will add the official Traefik repository, install Traefik, and confirm that the LoadBalancer is exposed to the world.
 
-First, we must add the official Traefik repo and update the manifests:
+To begin, we must add the official Traefik repo and update the manifests:
 
 `helm repo add traefik https://containous.github.io/traefik-helm-chart
 helm repo update`{{execute}}
