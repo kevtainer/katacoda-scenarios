@@ -9,7 +9,6 @@
         "host01": [
           { "file": "check-endpoint.sh", "target": "/home/traefik", "chmod": "+x" },
           { "file": "wait.sh", "target": "/usr/local/bin", "chmod": "+x"},
-          { "file": "clear.sh", "target": "/usr/local/bin", "chmod": "+x"},
           { "file": "basicauth.yaml", "target": "/home/traefik" }
         ]
       },
