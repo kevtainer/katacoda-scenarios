@@ -7,7 +7,8 @@
     "details": {
       "assets": {
         "host01": [
-          { "file": "check-endpoint.sh", "target": "/home/traefik", "chmod": "+x" }
+          { "file": "check-endpoint.sh", "target": "/home/traefik", "chmod": "+x" },
+          { "file": "wait.sh", "target": "/usr/local/bin", "chmod": "+x"}
         ]
       },
       "steps": [{
@@ -29,7 +30,8 @@
       "intro": {
         "text": "intro.md",
         "credits": "Kevin Crawley [kevin.crawley@containo.us](https://containo.us)",
-        "code": "setup.sh"
+        "courseData": "background.sh",
+        "code": "env-init.sh"
       },
       "finish": {
         "text": "finish.md"
