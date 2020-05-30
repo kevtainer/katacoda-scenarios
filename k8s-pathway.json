@@ -3,7 +3,7 @@
     "description": "Learn the essentials of using Traefik and Kubernetes",
     "courses": [
         {
-            "course_id": "helm-dashboard",
+            "course_id": "traefik-v2-helm-secure-dashboard",
             "title": "Traefik v2 and Helm v3 with Kubernetes",
             "description": "Learn how to deploy the latest version of Traefik and Helm and securely expose the Traefik Dashboard"
         }
