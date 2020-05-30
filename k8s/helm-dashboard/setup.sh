@@ -1,9 +1,9 @@
 #!/bin/sh
 
-launch.sh
+apt update -qq && apt install -qq -y apache2-utils
 
 mkdir -p /home/traefik; cd /home/traefik
 
-DEBIAN_FRONTEND=noninteractive apt install -qq apache2-utils
+launch.sh
 
 { clear && echo "Traefik School is in session.";} 2> /dev/null
