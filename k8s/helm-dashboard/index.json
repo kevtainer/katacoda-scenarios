@@ -1,0 +1,47 @@
+{
+    "pathwayTitle": "Kubernetes and Traefik",
+    "title": "Traefik v2 and Helm v3 with Kubernetes",
+    "description": "Learn how to deploy the latest version of Traefik and Helm and securely expose the Traefik Dashboard",
+    "difficulty": "beginner",
+    "time": "10-15 minutes",
+    "details": {
+      "assets": {
+        "host01": [
+          { "file": "check-endpoint.sh", "target": "/root" }
+        ]
+      },
+      "steps": [{
+        "title": "Install Helm",
+        "text": "step1.md"
+      },
+      {
+        "title": "Deploy Traefik",
+        "text": "step2.md"
+      },
+      {
+        "title": "Accessing the Traefik Dashboard",
+        "text": "step3.md"
+      },
+      {
+        "title": "Securing the Traefik Dashboard",
+        "text": "step4.md"
+      }],
+      "intro": {
+        "text": "intro.md",
+        "credits": ""
+      },
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "environment": {
+      "uilayout": "editor-terminal",
+      "uimessage1": "\u001b[36mYour Interactive Bash Terminal.\u001b[m\r\n"
+    },
+    "backend": {
+      "imageid": "kubernetes-cluster"
+    },
+    "files": [
+      "dashboard.yaml"
+    ]
+  }

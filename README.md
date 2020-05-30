@@ -4,7 +4,7 @@
 
 Visit https://www.katacoda.com/notsureifkevin to view the profile and interactive scenarios
 
-### Writing Scenarios
-Visit https://www.katacoda.com/docs to learn more about creating Katacoda scenarios
+###
+Want to learn more about Traefik? Look no further.
 
-For examples, visit https://github.com/katacoda/scenario-example
+Welcome to Traefik School
