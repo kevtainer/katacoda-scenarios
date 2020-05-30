@@ -7,7 +7,7 @@
     "details": {
       "assets": {
         "host01": [
-          { "file": "check-endpoint.sh", "target": "/root" }
+          { "file": "check-endpoint.sh", "target": "/home/traefik" }
         ]
       },
       "steps": [{
@@ -19,7 +19,7 @@
         "text": "step2.md"
       },
       {
-        "title": "Accessing the Traefik Dashboard",
+        "title": "Configuring and accessing the Traefik Dashboard",
         "text": "step3.md"
       },
       {
@@ -36,7 +36,8 @@
     },
     "environment": {
       "uilayout": "editor-terminal",
-      "uimessage1": "\u001b[36mYour Interactive Bash Terminal.\u001b[m\r\n"
+      "uimessage1": "\u001b[36mYour Interactive Bash Terminal.\u001b[m\r\n",
+      "uieditorpath": "/home/traefik"
     },
     "backend": {
       "imageid": "kubernetes-cluster-running"
