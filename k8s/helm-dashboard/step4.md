@@ -34,7 +34,7 @@ We don't actually need to change anything here, but we do need to apply the mani
 
 For the last step, we will update the dashboard IngressRoute to use this newly defined middleware. Once we've completed this step our dashboard will _really_ be secured.
 
-In the example below, we've added `middlewares` to the route definition. Open `dashboard.yaml`{{file}} and update it.
+In the example below, we've added `middlewares` to the route definition. Open `dashboard.yaml`{{open}} and update it.
 
 ```
 apiVersion: traefik.containo.us/v1alpha1
@@ -57,7 +57,7 @@ spec:
 
 Apply the configuration and we're done!
 
-`kubectl apply -f dashboard.yaml`
+`kubectl apply -f dashboard.yaml`{{execute}}
 
 Visit the dashboard URL, and we will now be prompted for a username and password.
 
