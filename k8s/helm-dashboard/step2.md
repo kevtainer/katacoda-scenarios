@@ -18,4 +18,4 @@ Once you have the IP, you can confirm traefik is running by accessing that IP wi
 
 `curl http://<endpoint_ip>`
 
-Note: You should see a `404 Not Found` response since we have not configured any Ingress routes.
+Note: You should see a `404 page not found` response since we have not configured any Ingress routes.
